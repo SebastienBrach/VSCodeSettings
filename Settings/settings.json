@@ -1,0 +1,98 @@
+{
+    "editor.fontWeight": null,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "diffEditor.codeLens": true,
+    "git.mergeEditor": false,
+    "workbench.editor.showTabs": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.hotExit": "onExitAndWindowClose",
+    "window.restoreWindows": "folders",
+    "gitlens.advanced.messages": {
+      "suppressGitMissingWarning": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+      "editor.formatOnSave": true
+    },
+    "[markdown]": {
+      "editor.formatOnSave": false
+    },
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "log.error",
+          "settings": {
+            "foreground": "#af1f1f",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "log.warning",
+          "settings": {
+            "foreground": "#f4ad42"
+          }
+        },
+        {
+          "scope": "log.info",
+          "settings": {
+            "foreground": "#4D9CCF"
+          }
+        }
+      ]
+    },
+    "logFileHighlighter.customPatterns": [
+      {
+        "pattern": "SUCCESS",
+        "foreground": "#4BB543"
+      }
+    ],
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.iconTheme": "material-icon-theme",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "editor.inlineSuggest.enabled": true,
+    "[dockercompose]": {
+      "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "githubPullRequests.queries": [
+      {
+        "label": "Waiting For My Review",
+        "query": "is:open review-requested:${user}"
+      },
+      {
+        "label": "Assigned To Me",
+        "query": "is:open assignee:${user}"
+      },
+      {
+        "label": "Created By Me",
+        "query": "is:open author:${user}"
+      }
+    ],
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "diffEditor.wordWrap": "on",
+    "explorer.enableDragAndDrop": false,
+    "editor.wordWrap": "on",
+    "npm.keybindingsChangedWarningShown": true,
+    "redhat.telemetry.enabled": true,
+    "files.autoSave": "afterDelay",
+    "workbench.colorCustomizations": {
+      "editorBracketHighlight.foreground1": "#9B59B6",
+      "editorBracketHighlight.foreground2": "#DF70D2",
+      "editorBracketHighlight.foreground3": "#F4CD3A",
+      "editorBracketHighlight.foreground4": "#00A0FA",
+      "editorBracketHighlight.foreground5": "#50FA7B",
+      "editorBracketHighlight.foreground6": "#ECF0F1",
+      "editorBracketHighlight.unexpectedBracket.foreground": "#E74C3C"
+    }
+  }
