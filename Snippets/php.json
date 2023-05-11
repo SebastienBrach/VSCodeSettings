@@ -1,0 +1,91 @@
+{
+    "echo '<pre>'; var_dump(); echo '</pre>'": {
+      "prefix": ["vardump", "vd"],
+      "body": ["echo '<pre>';", "var_dump($1);", "echo '</pre>';"]
+    },
+  
+    "private function": {
+      "prefix": ["privatefunction", "privatef"],
+      "body": [
+        "/**",
+        " * $1 ",
+        " * ",
+        " * @return void",
+        " */",
+        //
+        "private function $1()",
+        "{",
+        "}"
+      ]
+    },
+  
+    "public function": {
+      "prefix": ["publicfunction", "publicf"],
+      "body": [
+        "/**",
+        " * $1 ",
+        " * ",
+        " * @return void",
+        " */",
+        //
+        "public function $1()",
+        "{",
+        "}"
+      ]
+    },
+  
+    "<?php ?>": {
+      "prefix": "php",
+      "body": ["<?php $0?>"]
+    },
+  
+    "<?php": {
+      "prefix": ["po", "phpo"],
+      "body": ["<?php"]
+    },
+  
+    "?>": {
+      "prefix": ["pc", "phpc"],
+      "body": ["?>"]
+    },
+  
+    "<?= ?>": {
+      "prefix": ["pecho"],
+      "body": ["<?= \\$${1:variable} ?>"]
+    },
+  
+    "SERVER": {
+      "prefix": ["$serv"],
+      "body": ["\\$_SERVER[\"${1:}\"]"]
+    },
+  
+    "REQUEST": {
+      "prefix": ["$req"],
+      "body": ["\\$_REQUEST[\"${1:}\"]"]
+    },
+  
+    "POST": {
+      "prefix": ["$post"],
+      "body": ["\\$_POST[\"${1:}\"]"]
+    },
+  
+    "GET": {
+      "prefix": ["$get"],
+      "body": ["\\$_GET[\"${1:}\"]"]
+    },
+  
+    "ENV": {
+      "prefix": ["$env"],
+      "body": ["\\$_ENV[\"${1:}\"]"]
+    },
+  
+    "COOKIE": {
+      "prefix": ["$cookie"],
+      "body": ["\\$_COOKIE[\"${1:}\"]"]
+    },
+  
+    "SESSION": {
+      "prefix": ["$sess"],
+      "body": ["\\$_SESSION[\"${1:}\"]"]
+    }
+  }

@@ -1,0 +1,7 @@
+{
+    "Exécuter un console.log()": {
+      "prefix": "clg",
+      "body": ["console.log($1)"],
+      "description": "Exécuter un console.log()"
+    }
+  }
