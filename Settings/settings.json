@@ -51,6 +51,10 @@
       {
         "pattern": "SUCCESS",
         "foreground": "#4BB543"
+      },
+      {
+        "pattern": "EXCEPTION",
+        "foreground": "#f4ad42"
       }
     ],
     "workbench.editor.untitled.hint": "hidden",
